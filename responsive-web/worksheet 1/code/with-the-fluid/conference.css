@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 96.84%;
+    margin: 1.57%;
+    font: 100% "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1.08em;
+}
+
+p {
+    margin: 0 0 1.3em 0;
+}
+
+p, li {
+    line-height: 1.3em;
+}
+
+header.page_header {
+    height: 12.5em;
+    background-color: #ADD8E6;
+}
+
+.logo {
+    float: left;
+    width: 27.17%;
+}
+
+.logo img {
+    height: 12.5em;
+    min-width: 12.5em;
+    max-width: 100%;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* <=IE8  */
+}
+
+header.page_header h1 {
+    height: 3.3em;
+    padding-top: 1.2em;
+    width: 67.39%;
+    float: left;
+    margin-left: 5.43%;
+}
+
+header.page_header nav {
+    width: 67.39%;
+    float: left;
+    margin-left: 5.43%;
+}
+
+header.page_header nav ul {
+    list-style: none;
+}
+
+header.page_header nav ul li {
+    padding: 0 20px 0 0;
+    display: inline;
+}
+
+aside {
+    float: right;
+    width: 19.73%;
+    margin-left: 0.65%;
+    font-size: 1.25em;
+}
+
+section#main_text {
+    float: left;
+    width: 82.60%;
+    margin-right: 0.54%;
+}
+
+section#twitter_output {
+    width: 16.84%;
+    float: right;
+    background-color: #ADD8E6;
+}
+
+section#twitter_output a {
+    background-color: #6495ed;
+    color: white;
+    text-decoration: none;
+    padding-left: 6.45%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+section#twitter_output p {
+    margin: 0;
+    padding: 6.45%;
+    border-bottom-style: solid;
+    border-bottom-color: #6495ed;
+    border-bottom-width: 1px;
+}
+
+section#twitter_output h4 {
+    margin-bottom: 5px;
+    padding-left: 6.45%;
+    text-decoration: underline;
+}
+
+
+
+
+
+
