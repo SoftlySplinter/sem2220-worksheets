@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 96.842105%;
+    /* The top and bottom margins will be given the same 
+       dimension as the value used for margin-left and margin-right */
+    margin: 1.5789474%;
+   
+    /* Set font size as 100% browser setting. Also specify several fonts so that
+       at least one should be supported by all browsers */
+    font: 100% "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.08em;
+}
+
+p {
+    margin: 0 0 1.3em 0;
+}
+
+p, li {
+    line-height: 1.3em;
+}
+
+header.page_header {
+    background-color: #ADD8E6;
+    /* We normally would not need to set the height of this parent
+       container since it should depend on the height of its children.
+       However, if all the child elements are floating (which they are)
+       then the parent collapses in size. There are various ways to fix this
+       see http://css-tricks.com/all-about-floats/
+       I however decided to set the height explcitly. 
+    */
+    height: 12.5em;
+}
+
+.logo {
+    float: left;
+    width: 27.17391%;
+}
+
+.logo img {
+	  /* We can also use auto for the height to preserve
+	     aspect ratio, but in this design I don't mind a 
+	     bit of vertical stretch */
+    height: 12.5em;
+    /*width: 250px;*/
+    max-width: 100%;
+    opacity: 0.4;
+    filter: alpha(opacity = 40); /* <=IE8  */
+}
+
+header.page_header h1 {
+    height: 3.3em;
+    padding-top: 1.2em;
+    width: 67.3913%;
+    float: left;
+    margin-left: 5.4347826%;
+}
+
+header.page_header nav {
+    width: 67.3913%;
+    float: left;
+    margin-left: 5.4347826%;
+}
+
+header.page_header nav ul {
+    list-style: none;
+}
+
+header.page_header nav ul li {
+    padding: 0 20px 0 0;
+    display: inline;
+}
+
+aside {
+    float: right;
+    width: 19.736842%;
+    margin-left: 0.65789474%;
+    font-size: 1.25em;
+}
+
+section#main_text {
+    float: left;
+    width: 82.608696%;
+    margin-right: 0.54347826%;
+}
+
+section#twitter_output {
+    width: 16.847826%;
+    float: right;
+    background-color: #ADD8E6;
+}
+
+section#twitter_output a {
+    background-color: #6495ed;
+    color: white;
+    text-decoration: none;
+    padding-left: 6.4516129%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+section#twitter_output p {
+    margin: 0;    
+    padding: 6.4516129%;
+    border-bottom-style: solid;
+    border-bottom-color: #6495ed;
+    border-bottom-width: 1px;
+}
+
+section#twitter_output h4 {
+    margin-bottom: 5px;
+    padding-left: 6.4516129%;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+

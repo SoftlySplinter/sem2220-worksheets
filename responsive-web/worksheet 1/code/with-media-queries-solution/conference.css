@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 96.842105%;
+    margin: 1.5789474%;
+    /* Set font size as 100% browser setting. Also specify several fonts so that
+       at least one should be supported by all browsers */
+    font: 100% "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
+}
+
+h4 {
+	font-size: 1.08em;
+}
+
+p {
+    margin: 0 0 1.3em 0;
+}
+
+p, li {
+    line-height: 1.3em;
+}
+
+header.page_header {
+    background-color: #ADD8E6;
+}
+
+.logo img {
+	  max-width: 100%;
+	  height: auto;
+    opacity: 0.4;
+    filter: alpha(opacity = 40); /* <=IE8  */
+}
+
+.logo {
+	width: 27.17391%;
+}
+
+header.page_header nav ul {
+    list-style: none;
+}
+
+header.page_header nav ul li {
+    padding: 0 20px 0 0;
+    display: inline;
+}
+
+section#twitter_output {
+    background-color: #ADD8E6;
+}
+
+section#twitter_output a {
+    background-color: #6495ed;
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+section#twitter_output p {
+    margin: 0;
+    border-bottom-style: solid;
+    border-bottom-color: #6495ed;
+    border-bottom-width: 1px;
+}
+
+section#twitter_output h4 {
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+/* Normal width desktop browsers, some tablets */
+/* @media screen and (min-width: 685px) { */
+/* LARGE SCREEN MEDIA QUERY */
+@media screen and (min-width: 42.8125em) {
+
+	 h1 {
+    	  font-size: 2.5em;
+	 }
+
+	 h2 {
+    	  font-size: 1.5em;
+	 }
+
+    header.page_header {
+        height: 12.5em;
+    }
+
+    .logo {
+        float: left;
+    }
+
+    .logo img {
+        height: 12.5em;      
+    }
+
+    header.page_header h1 {
+        height: 3.3em;
+        padding-top: 1.2em;
+        width: 67.3913%;
+        float: left;
+        margin-left: 5.4347826%;
+    }
+
+    header.page_header nav {
+        width: 67.3913%;
+        float: left;
+        margin-left: 5.4347826%;
+    }
+
+    aside {
+        float: right;
+        width: 19.736842%;
+        margin-left: 0.65789474%;
+        font-size: 1.25em;
+    }
+
+    section#main_text {
+        float: left;
+        width: 82.608696%;
+        margin-right: 0.54347826%;
+    }
+
+    section#twitter_output {
+        width: 16.847826%;
+        float: right;
+    }
+
+    section#twitter_output a {
+        padding-left: 6.4516129%;
+    }
+
+    section#twitter_output p {
+    	  padding: 6.4516129%;
+    }
+
+    section#twitter_output h4 {
+        padding-left: 6.4516129%;
+    }
+}
+
+/* Narrower browsers, some tablets */
+/* MEDIUM SCREEN MEDIA QUERY */
+/* @media screen and (min-width: 527px) and (max-width: 684px) { */
+@media screen and (min-width: 32.9375em) and (max-width: 42.75em) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .logo {
+        float: left;
+    }
+
+    header.page_header h1 {
+        height: 2.5em;
+        padding-top: 0.8em;
+        width: 67.3913%;
+        float: left;
+        margin-left: 5.4347826%;
+    }
+
+    header.page_header nav {
+        clear: both;
+    }
+
+    aside {
+        float: right;
+        width: 19.736842%;
+        margin-left: 0.65789474%;
+        font-size: 1.25em;
+    }
+
+    section#twitter_output a {
+        padding-left: 1.0869565%;
+    }
+
+    section#twitter_output p {
+        padding: 1.0869565%;
+    }
+
+    section#twitter_output h4 {
+        padding-left: 1.0869565%;
+    }
+}
+
+/* Narrow browsers and smartphones */
+/* @media screen and (max-width: 526px) { */
+@media screen and (max-width: 32.875em) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    header.page_header h1 {
+        text-align: center;
+    }
+
+    header.page_header nav {
+        text-align: center;
+    }
+
+    header.page_header nav ul li {
+        padding-right: 1.0869565%;
+    }
+
+    header.page_header nav ul li a {
+        font-size: 0.9em;
+    }
+
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    aside {
+        font-size: 1.25em;
+    }
+
+   section#twitter_output a {
+        padding-left: 1.0869565%;
+    }
+
+    section#twitter_output p {
+        padding: 1.0869565%;
+    }
+
+    section#twitter_output h4 {
+        padding-left: 1.0869565%;
+    }
+}
+
+
+
+
